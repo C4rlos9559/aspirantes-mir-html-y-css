@@ -1,0 +1,86 @@
+
+.formulario {
+    border-radius: 20px;
+    margin:0 auto;/*centrar el elemento*/
+    width: 93%;/*Le resto el padding para que quepa*/
+    height: 100%;
+    padding: 7%;
+    box-shadow: 2% 2% 4% 2% rgb(44, 39, 41);
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative
+
+}   
+.tit {
+    margin: 0px;
+}
+.correo, .contr{ 
+    position: relative;  
+    width: calc(90%);/*debo contrarrestar el padding y borde*/
+    padding: 2%;
+}
+.gen{
+    width: 95%;
+    padding:2%
+}
+.term {
+    padding: 0px 2%;
+}
+.bot {
+    width: 95%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10%;
+}
+.enviar {
+    
+    position: absolute;
+    padding: 2% 5% 2% 5%;
+    right:0;
+    margin-bottom: 6%;
+
+}
+@media (min-width: 500px) {
+.formulario {
+    border-radius: 20px;
+    margin:0 auto;/*centrar el elemento*/
+    width: 300px;
+    padding: 7%;
+    box-shadow: 5px 5px 10px 5px rgb(44, 39, 41);
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative
+
+}   
+
+.tit {
+    margin: 0px;
+}
+.correo, .contr{ 
+    position: relative;  
+    width: calc(100% - 18px);/*debo contrarrestar el padding y borde*/
+    padding: 7px;
+}
+.gen{
+    width: 100%;
+    padding:7px
+}
+.term {
+    padding: 0px 7px;
+}
+.bot {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 27px;
+}
+.enviar {
+    
+    position: absolute;
+    padding: 5px 15px 5px 15px;
+    right:0;
+    margin-bottom: 20px;
+}
+}
